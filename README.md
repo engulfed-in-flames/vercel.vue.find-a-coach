@@ -9,10 +9,9 @@ This project leverages Vue.js alongside Vue Router for routing and Vuex for stat
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
+- [Install](#install)
 - [Build](#build)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
+- [Deploy](#deploy)
 - [Copyright](#copyright)
 
 The primary objective is to deepen my understanding of the Vue ecosystem and its associated tools.
@@ -23,7 +22,7 @@ The primary objective is to deepen my understanding of the Vue ecosystem and its
 - Routing: Vue Router enables smooth navigation between pages within the single-page application.
 - User Authentication: Secure user login and registration system using Firebase Authentication.
 
-## Installation
+## Install
 
 To get started with development, clone this repository and install the dependencies:
 
@@ -33,11 +32,23 @@ cd vercel.vue.find-a-coach
 npm install
 ```
 
+To start the development server with hot-reload, run the following command.
+
+```bash
+npm run dev
+```
+
 ## Build
 
 The development environment is powered by Vite for faster builds and an improved development experience.
 
-## Deployment
+To build the project you installed for production, run the following command.
+
+```bash
+npm run build
+```
+
+## Deploy
 
 The project is deployed on Vercel, providing seamless hosting and automatic updates with every commit.
 
