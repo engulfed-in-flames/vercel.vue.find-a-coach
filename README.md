@@ -6,6 +6,9 @@
 
 This project leverages Vue.js alongside Vue Router for routing and Vuex for state management, with Firebase serving as the backend database.
 
+> [!WARNING]
+> As Firebase authentication is being phased out, certain features relying on it might not work as expected.
+
 ## Table of Contents
 
 - [Features](#features)
